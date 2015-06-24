@@ -6,14 +6,14 @@ Tested up to: 4.2.2
 Stable tag: 4.0
 License: GPLv2 or later
 
-This plugin is for add all arabic currencies to WooCommerce.
+This plugin is for add all arabic currencies to WooCommerce.<br>
 هذه الإضافة تقوم بإضافة كل العملات العربية لWooCommerce.
 
 == Description ==
 
 This plugin provides all arabic currencies for woocommerce, you can use and control this currencies in your website by easy use.
 
-توفر هذه الإضافة كل العملات العربية ووكومرس ( WooCommerce), يمكنك استعمال و التحكم بهذه العملات في موقعك بكل سهولة.
+<div dir="rtl">توفر هذه الإضافة كل العملات العربية ووكومرس ( WooCommerce), يمكنك استعمال و التحكم بهذه العملات في موقعك بكل سهولة.</div>
 
 = Features  =
 
