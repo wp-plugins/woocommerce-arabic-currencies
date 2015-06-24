@@ -1,4 +1,4 @@
-=== wc-ac ===
+=== WooCommerce Arabic Currencies ===
 Contributors: sa3idho 
 Tags: woocommerce,currencies,money,commerce, arabic currencies
 Requires at least: 4.0
