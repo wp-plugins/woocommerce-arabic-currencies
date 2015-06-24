@@ -31,7 +31,7 @@ This plugin provides some arabic currencies for woocommerce, you can use and con
 
 
 == Screenshots ==
-1. wc-ac list in woocommerce currencies
+1. the list of Arab currencies in WooCommerce admin
 
 
 == Changelog ==
