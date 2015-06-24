@@ -26,7 +26,7 @@ This plugin provides all arabic currencies for woocommerce, you can use and cont
 
 == Installation ==
 
-*The first method (the easiest)
+* The first method (the easiest)
 1. Click Plugins in the menu
 2. Click Add New
 3. In search field type "WooCommerce Arabic Currencies" (without quotes)
