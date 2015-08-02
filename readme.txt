@@ -13,11 +13,11 @@ This plugin is for add all arabic currencies to WooCommerce.
 This plugin provides all arabic currencies for woocommerce, you can use and control this currencies in your website by easy use.
 
 For more information visit [the official website of the plugin](http://saidweb2.com/)
-<p dir="rtl">
+
 توفر هذه الإضافة كل العملات العربية لووكومرس , يمكنك استعمال و التحكم بهذه العملات في موقعك بكل سهولة.
 
 للمزيد من المعلومات المرجو  [زيارة الموقع الرسمي للإضافة](http://saidweb2.com/)
-</p>
+
 = Features  =
 
 * Twenty-one Arab currency .
