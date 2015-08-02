@@ -28,7 +28,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 add_filter( 'woocommerce_currencies', 'wc_ac_remove_currencies' );
 
   function wc_ac_remove_currencies( $currencies ) {
-    $currencies[] = '';
+    $currencies = '';
     return $currencies;
   }
   
