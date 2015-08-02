@@ -2,7 +2,7 @@
 Contributors: sa3idho 
 Tags: woocommerce,currencies,money,commerce, arabic currencies
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 4.0
 License: GPLv2 or later
 
@@ -12,7 +12,11 @@ This plugin is for add all arabic currencies to WooCommerce.
 
 This plugin provides all arabic currencies for woocommerce, you can use and control this currencies in your website by easy use.
 
+For more information visit [the official website of the plugin](https://saidweb2.com/)
+
 توفر هذه الإضافة كل العملات العربية لووكومرس , يمكنك استعمال و التحكم بهذه العملات في موقعك بكل سهولة.
+
+للمزيد من المعلومات المرجو  [زيارة الموقع الرسمي للإضافة](https://saidweb2.com/)
 
 = Features  =
 
@@ -50,3 +54,5 @@ This plugin provides all arabic currencies for woocommerce, you can use and cont
 == Changelog ==
 = 1.0.0 =
 * First released version.
+= 1.1.0 =
+* Remove all default currencies and default currencies symbols.

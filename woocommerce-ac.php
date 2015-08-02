@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Arabic Currencies
  * Plugin URI: 
  * Description: This plugin for add custom currencies to woocommerce but for arabic currencies.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Said El Bakkali
  * Author URI: http://saidelbakkali.com/
  * Text Domain: wc_ac
@@ -15,11 +15,34 @@ if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
 }
 
-/**
- * Check if WooCommerce is active
- **/
+  /**
+  * Check if WooCommerce is active
+  **/
 
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+
+    /**
+   * Remove not arabic currencies
+   */
+
+add_filter( 'woocommerce_currencies', 'wc_ac_remove_currencies' );
+
+  function wc_ac_remove_currencies( $currencies ) {
+    $currencies[] = '';
+    return $currencies;
+  }
+  
+    /**
+     * Remove all currency symbols
+     */
+
+  add_filter('woocommerce_currency_symbol', 'wc_ac_remove_currencies_symbol', 10, 2);
+
+  function wc_ac_remove_currencies_symbol( $currency_symbol, $currency ) {
+     $currency_symbol = '';
+     return $currency_symbol;
+
+  }
 
   /**
    * Add arabic currencies
@@ -52,6 +75,10 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
           return $currencies;
   }
 
+    /**
+     *  Add arabic currencies symbols
+     */
+
   add_filter('woocommerce_currency_symbol', 'wc_ac_currencies_symbol', 10, 2);
 
   function wc_ac_currencies_symbol( $currency_symbol, $currency ) {
@@ -81,13 +108,14 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
     return $currency_symbol;
   }
 
-    // Load Arabic Currencies plugin translation
-    add_action( 'plugins_loaded', 'wc_ac_translation' );
+   /**
+     * Load Arabic Currencies plugin translation
+     */
+
+  add_action( 'plugins_loaded', 'wc_ac_translation' );
 
 	/**
  	* Load plugin textdomain.
-	*
- 	* @since 1.0.0
  	*/
 
   function wc_ac_translation() {
