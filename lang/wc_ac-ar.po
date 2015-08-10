@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce Arabic Currencies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-21 05:49+0100\n"
-"PO-Revision-Date: 2015-06-21 05:54+0100\n"
+"PO-Revision-Date: 2015-08-10 05:52+0200\n"
 "Last-Translator: saidweb <said@said.com>\n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -20,7 +20,7 @@ msgstr ""
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Loco-Target-Locale: ar_AE\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: ../woocommerce-ac.php:31
@@ -109,87 +109,87 @@ msgstr "ريال سعودي"
 
 #: ../woocommerce-ac.php:59
 msgid "MAD"
-msgstr ""
+msgstr "د.م"
 
 #: ../woocommerce-ac.php:60
 msgid "EGP"
-msgstr ""
+msgstr "ج.م"
 
 #: ../woocommerce-ac.php:61
 msgid "IQD"
-msgstr ""
+msgstr "د.ع"
 
 #: ../woocommerce-ac.php:62
 msgid "SYP"
-msgstr ""
+msgstr "ل.س"
 
 #: ../woocommerce-ac.php:63
 msgid "LBP"
-msgstr ""
+msgstr "ل.ل"
 
 #: ../woocommerce-ac.php:64
 msgid "JOD"
-msgstr ""
+msgstr "د.ا"
 
 #: ../woocommerce-ac.php:65
 msgid "YER"
-msgstr ""
+msgstr "ر.ي"
 
 #: ../woocommerce-ac.php:66
 msgid "LYD"
-msgstr ""
+msgstr "د.ل"
 
 #: ../woocommerce-ac.php:67
 msgid "SDG"
-msgstr ""
+msgstr "ج.س"
 
 #: ../woocommerce-ac.php:68
 msgid "TND"
-msgstr ""
+msgstr "د.ت"
 
 #: ../woocommerce-ac.php:69
 msgid "DZD"
-msgstr ""
+msgstr "د.ج"
 
 #: ../woocommerce-ac.php:70
 msgid "MRO"
-msgstr ""
+msgstr "أ.م"
 
 #: ../woocommerce-ac.php:71
 msgid "AED"
-msgstr ""
+msgstr "د.إ"
 
 #: ../woocommerce-ac.php:72
 msgid "SOS"
-msgstr ""
+msgstr "ش.ص"
 
 #: ../woocommerce-ac.php:73
 msgid "FDJ"
-msgstr ""
+msgstr "ف.ج"
 
 #: ../woocommerce-ac.php:74
 msgid "KMF"
-msgstr ""
+msgstr "CF"
 
 #: ../woocommerce-ac.php:75
 msgid "BHD"
-msgstr ""
+msgstr "د.ب"
 
 #: ../woocommerce-ac.php:76
 msgid "KWD"
-msgstr ""
+msgstr "د.ك"
 
 #: ../woocommerce-ac.php:77
 msgid "OMR"
-msgstr ""
+msgstr "ر.ع"
 
 #: ../woocommerce-ac.php:78
 msgid "QAR"
-msgstr ""
+msgstr "ر.ق"
 
 #: ../woocommerce-ac.php:79
 msgid "SAR"
-msgstr ""
+msgstr "ر.س"
 
 #: ../woocommerce-ac.php:98
 msgid "WooCommerce Arabic Currencies"

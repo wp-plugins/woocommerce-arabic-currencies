@@ -20,9 +20,9 @@ For more information visit [the official website of the plugin](http://saidweb2.
 
 = Features  =
 
-* Twenty-one Arab currency .
-* Add all currencies direct to list woocommerce for currencies .
-* Supports add more currencies .
+* Twenty-one Arab currency.
+* Add all currencies direct to list woocommerce for currencies.
+* Supports add more currencies.
 
 = Translations =
 * Arabic
@@ -48,7 +48,7 @@ For more information visit [the official website of the plugin](http://saidweb2.
 
 
 == Screenshots ==
-1. the list of Arab currencies in WooCommerce admin
+1. the list of Arab currencies in WooCommerce settings.
 
 
 == Changelog ==
@@ -56,3 +56,5 @@ For more information visit [the official website of the plugin](http://saidweb2.
 * First released version.
 = 1.1.0 =
 * Remove all default currencies and default currencies symbols.
+= 1.1.1 =
+* Update Arabic translation & the Screenshot.

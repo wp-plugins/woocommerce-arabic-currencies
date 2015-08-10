@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Arabic Currencies
  * Plugin URI: 
  * Description: This plugin for add custom currencies to woocommerce but for arabic currencies.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Said El Bakkali
  * Author URI: http://saidelbakkali.com/
  * Text Domain: wc_ac
@@ -33,7 +33,7 @@ add_filter( 'woocommerce_currencies', 'wc_ac_remove_currencies' );
   }
   
     /**
-     * Remove all currency symbols
+     * Remove all not arabic currency symbols
      */
 
   add_filter('woocommerce_currency_symbol', 'wc_ac_remove_currencies_symbol', 10, 2);
